@@ -5,7 +5,11 @@ const userSchema = mongoose.Schema({
     password : String,
     boards : {
         type : Array,
-        default : []
+        default : [{
+            
+        },{
+            
+        }]
     }
 });
 
